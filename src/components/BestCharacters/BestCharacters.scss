@@ -1,0 +1,40 @@
+.best-character{
+    padding: 70px 0;
+
+    .vertically{
+        display: flex;
+        align-items: center;
+    }
+
+    h1.header{
+        font-size: 50px;
+        color: aliceblue;
+    }
+
+    h3.header{
+        margin-top: 25px;
+        font-size: 28px;
+        color: aliceblue;
+    }
+
+    button.button{
+        background-color: #00a3da;
+        margin: 2.5rem 0 0;
+        font-size: 20px;
+        padding: 20px;
+        line-height: 1.5rem;
+        color: aliceblue;
+        text-transform: uppercase;
+
+        &:hover{
+            background-color: #00a3da;
+            color: aliceblue;
+            transition: background-color 0.15s ease-in-out ;
+        }
+    }
+
+    .column .image-container img {
+        width: 100%;
+        height: auto;
+    }
+}
